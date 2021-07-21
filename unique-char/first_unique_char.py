@@ -7,7 +7,6 @@ class Solution(object):
         :rtype: int
         """          
         frequency = Counter(s)
-
         for i, char in enumerate (s):
             if frequency[char] == 1:
                 print("Index of the non-repeating charater of the input string is:",i)

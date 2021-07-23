@@ -8,8 +8,7 @@ class uniqCharTestCase(unittest.TestCase):
         self.assertEqual(Solution().firstUniqChar("Hello"), 0, "Expected index number is 0")
         self.assertEqual(Solution().firstUniqChar("loveletter"), 1, "Expected index number is 1")
         self.assertEqual(Solution().firstUniqChar("llama"), 3, "Expected index number is 3")
-        self.assertEqual(Solution().firstUniqChar("xxyy"), -1, "Expected index number is -1")
-       
+        self.assertEqual(Solution().firstUniqChar("xxyy"), -1, "Expected index number is -1")   
         
 if __name__ == '__main__':
     unittest.main()

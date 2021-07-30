@@ -19,3 +19,12 @@ class Solution(object):
 
         print("True")
         return 1
+    
+    '''
+    Alternatively, version 2 of the code above is as follows:
+    
+    if sorted(s) == sorted(t):
+            return(1)
+        return(0)
+        
+   '''

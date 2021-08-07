@@ -2,7 +2,7 @@
 import unittest
 from roman import Solution
 
-class uniqCharTestCase(unittest.TestCase):
+class romanTestCase(unittest.TestCase):
     
     def test_roman(self):
         self.assertEqual(Solution().romanToInt("IV"), 4, "Expected index number is 4")

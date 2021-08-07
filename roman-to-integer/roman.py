@@ -19,6 +19,7 @@ class Solution(object):
                     number+=roman[s[i]]
                     i+=1
                     
+        print(number)
         return number
 
     

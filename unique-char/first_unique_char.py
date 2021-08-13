@@ -12,5 +12,4 @@ class Solution(object):
                 print("Index of the non-repeating charater of the input string is:",i)
                 return i     
         return -1
-     
-            
+       

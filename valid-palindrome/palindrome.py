@@ -7,6 +7,7 @@ class Solution(object):
         """   
         str1 = re.sub(r'[\W_]+', '', s).lower()
         str2 = str1[::-1].lower()
+
         if str1 == str2:
             print("True")
             return 1
